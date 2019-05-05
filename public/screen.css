@@ -13,15 +13,32 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.header {
+.profile-picture {
+  height: 180px;
+  width: auto;
+  margin: 12% 0% 8% 10%;
+  border-radius: 2%;
+}
+.bubble {
   display: flex;
-  align-items: center;
-  width: 300px;
+  align-items: left;
+  width: 330px;
+  height: 80px;
   margin: 50px auto;
+  padding: 2% 5% 2% 3%;
   background: white;
+  border-radius: 2%;
+}
+.pic-bubble {
+  display: flex;
+  flex-direction: row;
 }
 .examples {
   list-style: none;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #00000080;
+  padding: 40px;
 }
