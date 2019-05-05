@@ -21,13 +21,14 @@ body {
 }
 .bubble {
   display: flex;
-  align-items: left;
+  /* align-items: left; */
   width: 330px;
   height: 80px;
-  margin: 50px auto;
+  margin: 50px 90px 0px 50px;
   padding: 2% 5% 2% 3%;
   background: white;
   border-radius: 2%;
+  text-align: left;
 }
 .pic-bubble {
   display: flex;
