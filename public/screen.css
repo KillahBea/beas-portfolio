@@ -12,6 +12,9 @@ body {
   background-image: url('/images/space.png');
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
 }
 .profile-picture {
   height: 180px;
@@ -21,18 +24,28 @@ body {
 }
 .bubble {
   display: flex;
-  /* align-items: left; */
   width: 330px;
-  height: 80px;
-  margin: 50px 90px 0px 50px;
-  padding: 2% 5% 2% 3%;
+  height: 70px;
+  margin: 63px 90px 0px 50px;
+  padding: 1% 5% 3% 3%;
   background: white;
   border-radius: 2%;
   text-align: left;
+  opacity: 0.8;
+  flex-wrap: wrap;
 }
+.triangle {
+  margin: -200px 100px 0px 350px;
+  opacity: 0.8;
+  flex-wrap: wrap;
+  position: relative;
+}
+
 .pic-bubble {
   display: flex;
-  flex-direction: row;
+  justify-content: row;
+  flex-wrap: wrap;
+  position: relative;
 }
 .examples {
   list-style: none;
@@ -42,4 +55,33 @@ body {
   justify-content: space-around;
   background-color: #00000080;
   padding: 40px;
+  position: relative;
+}
+.react-img {
+  object-fit: cover;
+  height: 68px;
+  width: 100%;
+}
+.react {
+  background-color: white;
+  border-radius: 4px;
+}
+.title-date {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  margin: 0% 2% 0% 2%;
+  padding: 0% 10% 0% 0%;
+}
+button {
+  background-color: blue;
+  color: white;
+}
+
+.code-img {
+  object-fit: cover;
+  height100pxwidth: 100%;
+}
+
+.code {
 }
